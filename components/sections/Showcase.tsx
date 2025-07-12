@@ -50,7 +50,7 @@ const Showcase = () => {
               </p>
               <div className="pt-8">
                 <a 
-                  href="#waitlist"
+                  href="/waitlist"
                   className="btn-primary text-lg px-8 py-4 inline-flex items-center gap-2"
                 >
                   Be First to See It – Join the Waitlist

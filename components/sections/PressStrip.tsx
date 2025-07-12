@@ -19,9 +19,7 @@ const PressStrip = () => {
               }`}
             >
               {/* Add some default content */}
-              <div className="w-full">
-                Press content will appear here
-              </div>
+              {/* Press content removed as requested */}
             </div>
           </div>
         </section>

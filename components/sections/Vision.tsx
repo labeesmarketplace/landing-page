@@ -89,14 +89,7 @@ const Vision = () => {
 				</div>
 
 				{/* Footer CTA */}
-				<div className="text-center mt-16">
-					<a
-						href="#waitlist"
-						className="btn-primary text-lg px-8 py-4"
-					>
-						Join the Waitlist Now
-					</a>
-				</div>
+				{/* Removed Join the Waitlist Now button */}
 			</div>
 		</section>
 	);

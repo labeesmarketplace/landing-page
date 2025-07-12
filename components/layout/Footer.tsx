@@ -46,7 +46,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/#join" className="text-white/80 hover:text-white transition-colors">
+                <Link href="/waitlist" className="text-white/80 hover:text-white transition-colors">
                   Join
                 </Link>
               </li>

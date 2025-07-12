@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,8 +32,9 @@ const Navbar = () => {
       )}
     >
       <div className="container flex items-center justify-between">
-        <Link href="/" className="relative z-10">
-          <div className="font-display font-bold text-2xl text-primary">Labees</div>
+        <Link href="/" className="relative z-10 flex items-center gap-2">
+          <Image src="/icon.png" alt="Labees Icon" width={36} height={36} className="rounded-full shadow" />
+          <Image src="/logo.png" alt="Labees Logo" width={120} height={40} priority />
         </Link>
 
         {/* Desktop Navigation */}
@@ -40,12 +42,12 @@ const Navbar = () => {
           <Link href="/#home" className="text-black hover:text-primary transition-colors">Home</Link>
           <Link href="/#vision" className="text-black hover:text-primary transition-colors">Vision</Link>
           <Link href="/#features" className="text-black hover:text-primary transition-colors">Features</Link>
-          <Link href="/#join" className="text-black hover:text-primary transition-colors">Join</Link>
+          <Link href="/waitlist" className="text-black hover:text-primary transition-colors">Join</Link>
           <Link href="#" className="text-black hover:text-primary transition-colors">العربية</Link>
         </nav>
 
         <div className="hidden md:flex items-center space-x-4">
-          <Link href="#" className="btn-primary">
+          <Link href="/waitlist" className="btn-primary">
             Join Waitlist
           </Link>
           <Link href="#" className="btn-ghost">
@@ -95,7 +97,7 @@ const Navbar = () => {
               Features
             </Link>
             <Link 
-              href="/#join" 
+              href="/waitlist" 
               className="text-xl text-black hover:text-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -111,7 +113,7 @@ const Navbar = () => {
           </nav>
 
           <div className="flex flex-col items-center space-y-4">
-            <Link href="#" className="btn-primary w-full text-center" onClick={() => setIsMenuOpen(false)}>
+            <Link href="/waitlist" className="btn-primary w-full text-center" onClick={() => setIsMenuOpen(false)}>
               Join Waitlist
             </Link>
             <Link href="#" className="btn-ghost w-full text-center" onClick={() => setIsMenuOpen(false)}>

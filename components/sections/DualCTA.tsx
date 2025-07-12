@@ -33,7 +33,7 @@ const DualCTA = () => {
             </div>
             
             <Link 
-              href="#waitlist" 
+              href="/waitlist" 
               className="inline-flex items-center bg-white text-primary hover:bg-white/90 font-medium rounded-md py-3 px-6 group transition-all duration-300 hover:shadow-lg"
             >
               Join the Waitlist 

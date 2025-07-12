@@ -91,7 +91,7 @@ const Hero = () => {
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Link 
-                href="#waitlist" 
+                href="/waitlist" 
                 className="btn-primary group inline-flex items-center justify-center"
               >
                 Join the Waitlist

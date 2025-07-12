@@ -17,7 +17,7 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-        'hero-grad': 'linear-gradient(135deg, #0B3C5D 0%, #071B33 100%)',
+        'hero-grad': 'linear-gradient(135deg, #043a5b 0%, #043a5b 100%)',
       },
       borderRadius: {
         lg: 'var(--radius)',
@@ -25,7 +25,7 @@ const config: Config = {
         sm: 'calc(var(--radius) - 4px)',
       },
       colors: {
-        primary: '#0B3C5D',
+        primary: '#043a5b', // changed from #263141
         black: '#0A0A0A',
         canvas: '#FFFFFF',
         grayLight: '#F5F7FA',
