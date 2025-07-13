@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     locale: 'en_US',
     images: [
       {
-        url: 'https://images.pexels.com/photos/5662862/pexels-photo-5662862.png',
+        url: '/logo.png',
         width: 1200,
         height: 630,
         alt: 'Labees',
