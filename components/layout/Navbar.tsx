@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
+import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle } from '../ui/dialog';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -43,16 +44,39 @@ const Navbar = () => {
           <Link href="/#vision" className="text-black hover:text-primary transition-colors">Vision</Link>
           <Link href="/#features" className="text-black hover:text-primary transition-colors">Features</Link>
           <Link href="/waitlist" className="text-black hover:text-primary transition-colors">Join</Link>
-          <Link href="#" className="text-black hover:text-primary transition-colors">العربية</Link>
         </nav>
 
         <div className="hidden md:flex items-center space-x-4">
           <Link href="/waitlist" className="btn-primary">
             Join Waitlist
           </Link>
-          <Link href="#" className="btn-ghost">
-            For Vendors
-          </Link>
+          <Dialog>
+            <DialogTrigger asChild>
+              <button className="btn-ghost">
+                For Vendors
+              </button>
+            </DialogTrigger>
+            <DialogContent className="max-w-2xl w-full">
+              <DialogHeader>
+                <DialogTitle>Vendor Application</DialogTitle>
+              </DialogHeader>
+              <div className="rounded-lg overflow-hidden bg-white/80 p-2 shadow-lg">
+                <iframe
+                  src="https://docs.google.com/forms/d/e/1FAIpQLSd8mB2GuRfesLo2ggTtvqRBJvrQ63LI2Tvq7PzP-x0eT5exdg/viewform?embedded=true"
+                  width="100%"
+                  height="700"
+                  frameBorder="0"
+                  marginHeight={0}
+                  marginWidth={0}
+                  title="Vendor Application Form"
+                  className="w-full rounded-lg border"
+                  style={{ minHeight: 500 }}
+                >
+                  Loading…
+                </iframe>
+              </div>
+            </DialogContent>
+          </Dialog>
         </div>
 
         {/* Mobile Menu Button */}
@@ -103,22 +127,39 @@ const Navbar = () => {
             >
               Join
             </Link>
-            <Link 
-              href="#" 
-              className="text-xl text-black hover:text-primary transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              العربية
-            </Link>
           </nav>
 
           <div className="flex flex-col items-center space-y-4">
             <Link href="/waitlist" className="btn-primary w-full text-center" onClick={() => setIsMenuOpen(false)}>
               Join Waitlist
             </Link>
-            <Link href="#" className="btn-ghost w-full text-center" onClick={() => setIsMenuOpen(false)}>
-              For Vendors
-            </Link>
+            <Dialog>
+              <DialogTrigger asChild>
+                <button className="btn-ghost w-full text-center" onClick={() => setIsMenuOpen(false)}>
+                  For Vendors
+                </button>
+              </DialogTrigger>
+              <DialogContent className="max-w-2xl w-full">
+                <DialogHeader>
+                  <DialogTitle>Vendor Application</DialogTitle>
+                </DialogHeader>
+                <div className="rounded-lg overflow-hidden bg-white/80 p-2 shadow-lg">
+                  <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSd8mB2GuRfesLo2ggTtvqRBJvrQ63LI2Tvq7PzP-x0eT5exdg/viewform?embedded=true"
+                    width="100%"
+                    height="700"
+                    frameBorder="0"
+                    marginHeight={0}
+                    marginWidth={0}
+                    title="Vendor Application Form"
+                    className="w-full rounded-lg border"
+                    style={{ minHeight: 500 }}
+                  >
+                    Loading…
+                  </iframe>
+                </div>
+              </DialogContent>
+            </Dialog>
           </div>
         </div>
       </div>

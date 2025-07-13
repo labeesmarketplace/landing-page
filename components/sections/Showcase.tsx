@@ -38,24 +38,30 @@ const Showcase = () => {
             contentVisible ? 'visible' : ''
           }`}
         >
-          {/* Blurred Preview */}
-          <div className="relative rounded-2xl overflow-hidden backdrop-blur-xl bg-primary/5 border-2 border-primary/20 p-12 text-center">
-            <div className="absolute inset-0 bg-white/10 backdrop-blur-3xl" />
-            <div className="relative z-10 space-y-6">
+          {/* Side-by-side layout for phone and text */}
+          <div className="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-16">
+            {/* Text and button on the left */}
+            <div className="flex-1 flex flex-col items-center md:items-start text-center md:text-left space-y-6 px-2 md:px-0">
               <p className="text-xl text-gray-600 italic">
                 "Can't leak this yet. Our devs will kill us."
               </p>
               <p className="text-lg text-gray-800 font-medium">
                 What's coming isn't "inspired by trends." It's built to start them.
               </p>
-              <div className="pt-8">
-                <a 
-                  href="/waitlist"
-                  className="btn-primary text-lg px-8 py-4 inline-flex items-center gap-2"
-                >
-                  Be First to See It – Join the Waitlist
-                  <Lock className="h-5 w-5" />
-                </a>
+              <a 
+                href="/waitlist"
+                className="btn-primary text-lg px-8 py-4 inline-flex items-center gap-2 mt-2"
+              >
+                Be First to See It – Join the Waitlist
+                <Lock className="h-5 w-5" />
+              </a>
+            </div>
+            {/* Phone Frame on the right */}
+            <div className="flex-1 flex justify-center">
+              <div className="relative w-[320px] h-[660px] rounded-[2.5rem] bg-black shadow-2xl border-4 border-gray-900 overflow-hidden flex items-center justify-center">
+                {/* Large lock icon instead of image */}
+                <Lock className="w-24 h-24 text-gray-300 opacity-80" />
+                <div className="absolute inset-0 bg-white/10" style={{ zIndex: 2 }} />
               </div>
             </div>
           </div>

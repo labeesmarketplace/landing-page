@@ -4,13 +4,14 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, Star } from 'lucide-react';
+import { Dialog, DialogTrigger, DialogContent, DialogHeader, DialogTitle } from '../ui/dialog';
 
 const mockups = [
-  "https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "/women2.jpg",
+  "/men2.png",
+  "/2 girls.png",
   "https://images.pexels.com/photos/7679740/pexels-photo-7679740.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  "https://images.pexels.com/photos/7679760/pexels-photo-7679760.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  "https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  "https://images.pexels.com/photos/7679740/pexels-photo-7679740.jpeg?auto=compress&cs=tinysrgb&w=1200"
+  "/guy1.jpg"
 ];
 
 const phrases = [
@@ -97,13 +98,34 @@ const Hero = () => {
                 Join the Waitlist
                 <ArrowRight className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
               </Link>
-              <Link 
-                href="#vendors" 
-                className="btn-ghost group"
-              >
-                Vendor Application
-                <ArrowRight className="ml-2 h-5 w-5 opacity-0 transition-all group-hover:opacity-100 group-hover:translate-x-1" />
-              </Link>
+              <Dialog>
+                <DialogTrigger asChild>
+                  <button className="btn-ghost group inline-flex items-center justify-center">
+                    Vendor Application
+                    <ArrowRight className="ml-2 h-5 w-5 opacity-0 transition-all group-hover:opacity-100 group-hover:translate-x-1" />
+                  </button>
+                </DialogTrigger>
+                <DialogContent className="max-w-2xl w-full">
+                  <DialogHeader>
+                    <DialogTitle>Vendor Application</DialogTitle>
+                  </DialogHeader>
+                  <div className="rounded-lg overflow-hidden bg-white/80 p-2 shadow-lg">
+                    <iframe
+                      src="https://docs.google.com/forms/d/e/1FAIpQLSd8mB2GuRfesLo2ggTtvqRBJvrQ63LI2Tvq7PzP-x0eT5exdg/viewform?embedded=true"
+                      width="100%"
+                      height="700"
+                      frameBorder="0"
+                      marginHeight={0}
+                      marginWidth={0}
+                      title="Vendor Application Form"
+                      className="w-full rounded-lg border"
+                      style={{ minHeight: 500 }}
+                    >
+                      Loading…
+                    </iframe>
+                  </div>
+                </DialogContent>
+              </Dialog>
             </div>
 
             {/* Stats */}
