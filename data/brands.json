@@ -1,0 +1,298 @@
+{
+  "brands": [
+    {
+      "identifier": "qatar-fashion-house",
+      "slug": "qatar-fashion-house",
+      "name": "Qatar Fashion House",
+      "logoUrl": "https://picsum.photos/200/200?random=1",
+      "bannerUrl": "https://picsum.photos/1200/400?random=10",
+      "tagline": "Elevating Qatari style with contemporary elegance",
+      "description": "Qatar Fashion House is a premium fashion brand that celebrates the rich cultural heritage of Qatar while embracing modern design principles. Founded in 2018, we specialize in creating sophisticated clothing that reflects the unique blend of tradition and innovation that defines Qatari fashion.",
+      "location": "Doha, Qatar",
+      "values": "Our mission is to showcase the beauty of Qatari culture through fashion while promoting sustainable practices and supporting local artisans. We believe in creating timeless pieces that tell stories and connect people to the rich heritage of our region.",
+      "socials": {
+        "instagram": "https://instagram.com/qatarfashionhouse",
+        "website": "https://qatarfashionhouse.qa",
+        "facebook": "https://facebook.com/qatarfashionhouse"
+      },
+      "products": [
+        {
+          "id": "qfh-001",
+          "name": "Traditional Abaya",
+          "price": 850,
+          "image": "https://picsum.photos/300/400?random=11",
+          "description": "Elegant black abaya with modern embellishments"
+        },
+        {
+          "id": "qfh-002",
+          "name": "Embroidered Thobe",
+          "price": 1200,
+          "image": "https://picsum.photos/300/400?random=12",
+          "description": "Hand-embroidered white thobe with gold accents"
+        },
+        {
+          "id": "qfh-003",
+          "name": "Silk Scarf Collection",
+          "price": 350,
+          "image": "https://picsum.photos/300/400?random=13",
+          "description": "Luxury silk scarves with traditional patterns"
+        },
+        {
+          "id": "qfh-004",
+          "name": "Evening Gown",
+          "price": 2500,
+          "image": "https://picsum.photos/300/400?random=14",
+          "description": "Stunning evening gown with pearl embellishments"
+        },
+        {
+          "id": "qfh-005",
+          "name": "Casual Kaftan",
+          "price": 450,
+          "image": "https://picsum.photos/300/400?random=15",
+          "description": "Comfortable kaftan perfect for daily wear"
+        },
+        {
+          "id": "qfh-006",
+          "name": "Wedding Collection",
+          "price": 5000,
+          "image": "https://picsum.photos/300/400?random=16",
+          "description": "Exclusive wedding dresses and accessories"
+        }
+      ],
+      "posts": [
+        {
+          "id": "qfh-post-001",
+          "image": "https://picsum.photos/400/500?random=20",
+          "caption": "Spring collection showcase at Doha Fashion Week",
+          "date": "2024-03-15"
+        },
+        {
+          "id": "qfh-post-002",
+          "image": "https://picsum.photos/400/600?random=21",
+          "caption": "Behind the scenes: Crafting our signature abaya",
+          "date": "2024-03-10"
+        },
+        {
+          "id": "qfh-post-003",
+          "image": "https://picsum.photos/400/400?random=22",
+          "caption": "Traditional meets modern in our latest collection",
+          "date": "2024-03-05"
+        },
+        {
+          "id": "qfh-post-004",
+          "image": "https://picsum.photos/400/500?random=23",
+          "caption": "Celebrating Qatari heritage through fashion",
+          "date": "2024-02-28"
+        },
+        {
+          "id": "qfh-post-005",
+          "image": "https://picsum.photos/400/600?random=24",
+          "caption": "Sustainable fashion: Our commitment to the environment",
+          "date": "2024-02-20"
+        },
+        {
+          "id": "qfh-post-006",
+          "image": "https://picsum.photos/400/400?random=25",
+          "caption": "Artisan collaboration: Preserving traditional techniques",
+          "date": "2024-02-15"
+        }
+      ]
+    },
+    {
+      "identifier": "doha-luxury-brands",
+      "slug": "doha-luxury-brands",
+      "name": "Doha Luxury Brands",
+      "logoUrl": "https://picsum.photos/200/200?random=2",
+      "bannerUrl": "https://picsum.photos/1200/400?random=30",
+      "tagline": "Where luxury meets Qatari craftsmanship",
+      "description": "Doha Luxury Brands represents the pinnacle of Qatari luxury fashion, offering exclusive collections that blend international design trends with local cultural elements. Our brand is synonymous with quality, innovation, and the sophisticated lifestyle of modern Qatar.",
+      "location": "The Pearl, Doha, Qatar",
+      "values": "We are committed to excellence in every detail, from the finest materials to the most skilled craftsmanship. Our values center around luxury, authenticity, and the celebration of Qatari culture on the global stage.",
+      "socials": {
+        "instagram": "https://instagram.com/dohaluxurybrands",
+        "website": "https://dohaluxurybrands.qa",
+        "twitter": "https://twitter.com/dohaluxury"
+      },
+      "products": [
+        {
+          "id": "dlb-001",
+          "name": "Luxury Handbag",
+          "price": 3500,
+          "image": "https://picsum.photos/300/400?random=31",
+          "description": "Handcrafted leather handbag with gold hardware"
+        },
+        {
+          "id": "dlb-002",
+          "name": "Designer Watch",
+          "price": 8500,
+          "image": "https://picsum.photos/300/400?random=32",
+          "description": "Limited edition timepiece with precious stones"
+        },
+        {
+          "id": "dlb-003",
+          "name": "Cashmere Shawl",
+          "price": 1200,
+          "image": "https://picsum.photos/300/400?random=33",
+          "description": "Pure cashmere shawl with traditional motifs"
+        },
+        {
+          "id": "dlb-004",
+          "name": "Evening Suit",
+          "price": 4200,
+          "image": "https://picsum.photos/300/400?random=34",
+          "description": "Tailored evening suit for special occasions"
+        },
+        {
+          "id": "dlb-005",
+          "name": "Perfume Collection",
+          "price": 800,
+          "image": "https://picsum.photos/300/400?random=35",
+          "description": "Exclusive fragrances inspired by Qatar"
+        },
+        {
+          "id": "dlb-006",
+          "name": "Jewelry Set",
+          "price": 6500,
+          "image": "https://picsum.photos/300/400?random=36",
+          "description": "18k gold jewelry with precious gemstones"
+        }
+      ],
+      "posts": [
+        {
+          "id": "dlb-post-001",
+          "image": "https://picsum.photos/400/500?random=40",
+          "caption": "Luxury fashion week in Doha: A celebration of style",
+          "date": "2024-03-12"
+        },
+        {
+          "id": "dlb-post-002",
+          "image": "https://picsum.photos/400/600?random=41",
+          "caption": "The art of luxury: Our design process revealed",
+          "date": "2024-03-08"
+        },
+        {
+          "id": "dlb-post-003",
+          "image": "https://picsum.photos/400/400?random=42",
+          "caption": "Global influence meets local tradition",
+          "date": "2024-03-01"
+        },
+        {
+          "id": "dlb-post-004",
+          "image": "https://picsum.photos/400/500?random=43",
+          "caption": "Exclusive client events at our flagship store",
+          "date": "2024-02-25"
+        },
+        {
+          "id": "dlb-post-005",
+          "image": "https://picsum.photos/400/600?random=44",
+          "caption": "Craftsmanship that defines luxury",
+          "date": "2024-02-18"
+        },
+        {
+          "id": "dlb-post-006",
+          "image": "https://picsum.photos/400/400?random=45",
+          "caption": "Qatar's luxury fashion scene on the rise",
+          "date": "2024-02-10"
+        }
+      ]
+    },
+    {
+      "identifier": "al-wakra-artisans",
+      "slug": "al-wakra-artisans",
+      "name": "Al Wakra Artisans",
+      "logoUrl": "https://picsum.photos/200/200?random=3",
+      "bannerUrl": "https://picsum.photos/1200/400?random=50",
+      "tagline": "Handcrafted excellence from Qatar's heritage",
+      "description": "Al Wakra Artisans is a collective of skilled craftsmen and women dedicated to preserving and promoting traditional Qatari craftsmanship. We create authentic, handcrafted products that tell the story of Qatar's rich cultural heritage.",
+      "location": "Al Wakra, Qatar",
+      "values": "We believe in the power of traditional craftsmanship to connect generations and preserve cultural identity. Our work celebrates the skills passed down through families and communities, ensuring these precious traditions continue to thrive.",
+      "socials": {
+        "instagram": "https://instagram.com/alwakraartisans",
+        "website": "https://alwakraartisans.qa",
+        "facebook": "https://facebook.com/alwakraartisans"
+      },
+      "products": [
+        {
+          "id": "awa-001",
+          "name": "Handwoven Rug",
+          "price": 2800,
+          "image": "https://picsum.photos/300/400?random=51",
+          "description": "Traditional handwoven rug with geometric patterns"
+        },
+        {
+          "id": "awa-002",
+          "name": "Pottery Vase",
+          "price": 450,
+          "image": "https://picsum.photos/300/400?random=52",
+          "description": "Hand-thrown pottery vase with traditional designs"
+        },
+        {
+          "id": "awa-003",
+          "name": "Embroidered Cushion",
+          "price": 180,
+          "image": "https://picsum.photos/300/400?random=53",
+          "description": "Hand-embroidered cushion with floral motifs"
+        },
+        {
+          "id": "awa-004",
+          "name": "Wooden Box",
+          "price": 320,
+          "image": "https://picsum.photos/300/400?random=54",
+          "description": "Carved wooden box with traditional patterns"
+        },
+        {
+          "id": "awa-005",
+          "name": "Textile Wall Hanging",
+          "price": 650,
+          "image": "https://picsum.photos/300/400?random=55",
+          "description": "Hand-dyed textile wall hanging"
+        },
+        {
+          "id": "awa-006",
+          "name": "Ceramic Tea Set",
+          "price": 890,
+          "image": "https://picsum.photos/300/400?random=56",
+          "description": "Traditional ceramic tea set with calligraphy"
+        }
+      ],
+      "posts": [
+        {
+          "id": "awa-post-001",
+          "image": "https://picsum.photos/400/500?random=60",
+          "caption": "The art of traditional weaving: A master at work",
+          "date": "2024-03-14"
+        },
+        {
+          "id": "awa-post-002",
+          "image": "https://picsum.photos/400/600?random=61",
+          "caption": "Preserving heritage through pottery",
+          "date": "2024-03-09"
+        },
+        {
+          "id": "awa-post-003",
+          "image": "https://picsum.photos/400/400?random=62",
+          "caption": "Community workshop: Teaching the next generation",
+          "date": "2024-03-02"
+        },
+        {
+          "id": "awa-post-004",
+          "image": "https://picsum.photos/400/500?random=63",
+          "caption": "From raw materials to finished masterpiece",
+          "date": "2024-02-26"
+        },
+        {
+          "id": "awa-post-005",
+          "image": "https://picsum.photos/400/600?random=64",
+          "caption": "Traditional techniques meet modern design",
+          "date": "2024-02-19"
+        },
+        {
+          "id": "awa-post-006",
+          "image": "https://picsum.photos/400/400?random=65",
+          "caption": "Celebrating Qatari craftsmanship at its finest",
+          "date": "2024-02-12"
+        }
+      ]
+    }
+  ]
+} 

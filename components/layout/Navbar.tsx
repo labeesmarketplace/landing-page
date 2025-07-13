@@ -47,6 +47,9 @@ const Navbar = () => {
         </nav>
 
         <div className="hidden md:flex items-center space-x-4">
+          <Link href="/explore" className="btn-ghost">
+            Explore Brands
+          </Link>
           <Link href="/waitlist" className="btn-primary">
             Join Waitlist
           </Link>
@@ -130,6 +133,9 @@ const Navbar = () => {
           </nav>
 
           <div className="flex flex-col items-center space-y-4">
+            <Link href="/explore" className="btn-ghost w-full text-center" onClick={() => setIsMenuOpen(false)}>
+              Explore Brands
+            </Link>
             <Link href="/waitlist" className="btn-primary w-full text-center" onClick={() => setIsMenuOpen(false)}>
               Join Waitlist
             </Link>
