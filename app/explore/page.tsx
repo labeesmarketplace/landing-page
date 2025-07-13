@@ -2,7 +2,7 @@ import Link from 'next/link';
 import brandsData from '@/data/brands.json';
 
 export default function ExplorePage() {
-  const brand = brandsData.brands.find(b => b.slug === 'qatar-fashion-house');
+  const brand = brandsData.brands.find(b => b.slug === 'babz-qa');
   if (!brand) return null;
 
   return (

@@ -1,12 +1,12 @@
 {
   "brands": [
     {
-      "identifier": "qatar-fashion-house",
-      "slug": "qatar-fashion-house",
-      "name": "Qatar Fashion House",
-      "logoUrl": "https://picsum.photos/200/200?random=1",
+      "identifier": "babz-qa",
+      "slug": "babz-qa",
+      "name": "Babz.qa",
+      "logoUrl": "/babz icon.jpg",
       "bannerUrl": "https://picsum.photos/1200/400?random=10",
-      "tagline": "Elevating Qatari style with contemporary elegance",
+      "tagline": "By Albandare",
       "description": "Qatar Fashion House is a premium fashion brand that celebrates the rich cultural heritage of Qatar while embracing modern design principles. Founded in 2018, we specialize in creating sophisticated clothing that reflects the unique blend of tradition and innovation that defines Qatari fashion.",
       "location": "Doha, Qatar",
       "values": "Our mission is to showcase the beauty of Qatari culture through fashion while promoting sustainable practices and supporting local artisans. We believe in creating timeless pieces that tell stories and connect people to the rich heritage of our region.",
