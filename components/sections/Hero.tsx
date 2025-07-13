@@ -10,7 +10,7 @@ const mockups = [
   "/women2.jpg",
   "/men2.png",
   "/2 girls.png",
-  "https://images.pexels.com/photos/7679740/pexels-photo-7679740.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "/babz.jpg",
   "/guy1.jpg"
 ];
 
