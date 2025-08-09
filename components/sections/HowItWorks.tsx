@@ -63,7 +63,7 @@ const HowItWorks = () => {
 						isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
 					}`}
 				>
-					<span className="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-gradient-to-r from-[#043a5b] to-[#043a5b] text-white mb-4 md:mb-6 px-4 md:px-6 py-2 hover:from-[#043a5b] hover:to-[#043a5b]">
+					<span className="inline-flex items-center rounded-full border text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-gradient-to-r from-purple-600 to-pink-600 text-white mb-4 md:mb-6 px-6 py-3 hover:from-purple-700 hover:to-pink-700 shadow-lg hover:shadow-xl transition-all duration-300">
           The Process
         </span>
 					

@@ -74,7 +74,9 @@ const DualCTA = () => {
                       marginHeight={0}
                       marginWidth={0}
                       title="Vendor Application Form"
-                      className="w-full rounded-lg border"
+                       className="w-full rounded-lg border"
+                       sandbox="allow-forms allow-scripts allow-same-origin"
+                       referrerPolicy="no-referrer"
                       style={{ minHeight: 500 }}
                     >
                       Loading…

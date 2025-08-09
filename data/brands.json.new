@@ -1,0 +1,144 @@
+{
+  "brands": [
+    {
+      "identifier": "12th-stitch",
+      "slug": "12th-stitch",
+      "name": "12th Stitch",
+      "logoUrl": "/logo.png",
+      "bannerUrl": "https://picsum.photos/1200/400?random=1",
+      "tagline": "Contemporary Fashion with Traditional Touch",
+      "description": "Modern fashion that respects tradition",
+      "location": "Doha, Qatar",
+      "values": "Creating modern fashion that respects and incorporates traditional elements",
+      "socials": {
+        "instagram": "https://instagram.com/12thstitch"
+      },
+      "products": [
+        {
+          "id": "12s-001",
+          "name": "Sample Product",
+          "price": "1500",
+          "currency": "QAR",
+          "images": [
+            "/women2.jpg",
+            "/2 girls.png",
+            "/babz.jpg"
+          ]
+        }
+      ],
+      "posts": []
+    },
+    {
+      "identifier": "1309-studios",
+      "slug": "1309-studios",
+      "name": "1309 Studios",
+      "logoUrl": "/logo.png",
+      "bannerUrl": "https://picsum.photos/1200/400?random=2",
+      "tagline": "Innovative Design Studio",
+      "description": "Where innovation meets tradition in fashion",
+      "location": "Doha, Qatar",
+      "values": "Innovation, quality, and attention to detail in every piece",
+      "socials": {
+        "instagram": "https://instagram.com/1309studios"
+      },
+      "products": [
+        {
+          "id": "1309-001",
+          "name": "Sample Product",
+          "price": "1800",
+          "currency": "QAR",
+          "images": [
+            "/babz.jpg",
+            "/women2.jpg",
+            "/2 girls.png"
+          ]
+        }
+      ],
+      "posts": []
+    },
+    {
+      "identifier": "aadima",
+      "slug": "aadima",
+      "name": "Aadima",
+      "logoUrl": "/logo.png",
+      "bannerUrl": "https://picsum.photos/1200/400?random=3",
+      "tagline": "Timeless Elegance",
+      "description": "Crafting timeless pieces that celebrate femininity",
+      "location": "Doha, Qatar",
+      "values": "Creating timeless pieces that empower and inspire",
+      "socials": {
+        "instagram": "https://instagram.com/aadima"
+      },
+      "products": [
+        {
+          "id": "aad-001",
+          "name": "Sample Product",
+          "price": "2000",
+          "currency": "QAR",
+          "images": [
+            "/2 girls.png",
+            "/babz.jpg",
+            "/women2.jpg"
+          ]
+        }
+      ],
+      "posts": []
+    },
+    {
+      "identifier": "aey-line",
+      "slug": "aey-line",
+      "name": "AEY Line",
+      "logoUrl": "/logo.png",
+      "bannerUrl": "https://picsum.photos/1200/400?random=4",
+      "tagline": "Modern Minimalism",
+      "description": "Contemporary fashion with a minimalist approach",
+      "location": "Doha, Qatar",
+      "values": "Minimalism, sustainability, and modern design",
+      "socials": {
+        "instagram": "https://instagram.com/aeyline"
+      },
+      "products": [
+        {
+          "id": "aey-001",
+          "name": "Sample Product",
+          "price": "1700",
+          "currency": "QAR",
+          "images": [
+            "/women2.jpg",
+            "/2 girls.png",
+            "/babz.jpg"
+          ]
+        }
+      ],
+      "posts": []
+    },
+    {
+      "identifier": "babz-qa",
+      "slug": "babz-qa",
+      "name": "Babz.qa",
+      "logoUrl": "/babz icon.jpg",
+      "bannerUrl": "https://picsum.photos/1200/400?random=5",
+      "tagline": "By Albandare",
+      "description": "Qatar Fashion House is a premium fashion brand that celebrates the rich cultural heritage of Qatar while embracing modern design principles.",
+      "location": "Doha, Qatar",
+      "values": "Our mission is to showcase the beauty of Qatari culture through fashion",
+      "socials": {
+        "instagram": "https://instagram.com/babz.qa"
+      },
+      "products": [
+        {
+          "id": "babz-001",
+          "name": "Signature Collection Abaya",
+          "price": "2500",
+          "currency": "QAR",
+          "images": [
+            "/babz.jpg",
+            "/2 girls.png",
+            "/women2.jpg"
+          ]
+        }
+      ],
+      "posts": []
+    }
+  ]
+}

@@ -18,22 +18,17 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Labees – Qatar\'s Curated Fashion Movement',
-  description: 'Labees links Gen Z shoppers with bold, culture-first designers from Doha and beyond.',
+  metadataBase: new URL('https://labees.qa'),
+  title: "Labees — AI Virtual Try-On for Local Designers in Qatar",
+  description:
+    "Discover Qatar's culture-first fashion. Try outfits with AI and shop local designers.",
+  alternates: { canonical: '/' },
   openGraph: {
-    title: 'Labees – Qatar\'s Curated Fashion Movement',
-    description: 'Labees links Gen Z shoppers with bold, culture-first designers from Doha and beyond.',
     type: 'website',
-    locale: 'en_US',
-    images: [
-      {
-        url: '/logo.png',
-        width: 1200,
-        height: 630,
-        alt: 'Labees',
-      },
-    ],
+    url: 'https://labees.qa',
+    images: ['/og.png'],
   },
+  twitter: { card: 'summary_large_image', images: ['/og.png'] },
 };
 
 export default function RootLayout({
@@ -44,9 +39,18 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable} ${poppins.variable}`}>
       <body className="min-h-screen flex flex-col">
-        <Navbar />
-        <main className="flex-grow">{children}</main>
-        <Footer />
+        {/* Skip link for keyboard/screen reader users */}
+        <a
+          href="#main"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-black text-white px-3 py-2 rounded"
+        >
+          Skip to content
+        </a>
+        <div className="w-full">
+          <Navbar />
+          <main id="main" className="flex-grow">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );

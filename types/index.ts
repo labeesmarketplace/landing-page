@@ -1,9 +1,10 @@
 export interface Product {
   id: string;
   name: string;
-  price: number;
-  image: string;
-  description?: string;
+  price: string;
+  currency: string;
+  status?: 'sold_out';
+  images: string[];
 }
 
 export interface Post {

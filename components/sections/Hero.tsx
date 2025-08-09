@@ -45,7 +45,8 @@ const Hero = () => {
   return (
     <section id="home" className="relative pt-24 min-h-[90vh] flex items-center overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(11,60,93,0.1),transparent_70%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(11,60,93,0.10),transparent_70%)]" />
+      
       
       <div className="container relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
@@ -142,10 +143,19 @@ const Hero = () => {
           </div>
 
           {/* Right Image Gallery */}
-          <div className={`relative h-[600px] transform transition-all duration-1000 delay-300 ${
+          <div className={`relative h-[600px] transform transition-all duration-1000 delay-300 motion-reduce:transition-none motion-reduce:transform-none ${
             isVisible ? 'translate-x-0 opacity-100' : 'translate-x-12 opacity-0'
           }`}>
             <div className="absolute inset-0 bg-hero-grad rounded-2xl z-10 opacity-5" />
+            {/* Extra faint overlay to increase depth without obstruction */}
+            <div
+              aria-hidden="true"
+              className="absolute inset-0 rounded-2xl z-10 opacity-[0.06]"
+              style={{
+                background:
+                  'radial-gradient(60% 60% at 50% 40%, rgba(4,58,91,0.25) 0%, rgba(4,58,91,0) 70%)',
+              }}
+            />
             
             {mockups.map((src, index) => (
               <div 
@@ -160,7 +170,8 @@ const Hero = () => {
                   fill
                   className="object-cover rounded-2xl"
                   sizes="(max-width: 768px) 100vw, 50vw"
-                  priority={true}
+                  priority={index === 0}
+                  loading={index === 0 ? 'eager' : 'lazy'}
                 />
               </div>
             ))}

@@ -43,6 +43,7 @@ const Navbar = () => {
           <Link href="/#home" className="text-black hover:text-primary transition-colors">Home</Link>
           <Link href="/#vision" className="text-black hover:text-primary transition-colors">Vision</Link>
           <Link href="/#features" className="text-black hover:text-primary transition-colors">Features</Link>
+          <Link href="/#faq" className="text-black hover:text-primary transition-colors">FAQ</Link>
           <Link href="/waitlist" className="text-black hover:text-primary transition-colors">Join</Link>
         </nav>
 
@@ -86,6 +87,9 @@ const Navbar = () => {
         <button
           className="md:hidden z-10 focus:outline-none"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          aria-expanded={isMenuOpen}
+          aria-controls="mobile-menu"
         >
           {isMenuOpen ? (
             <X className="h-6 w-6 text-black" />
@@ -96,6 +100,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <div
+          id="mobile-menu"
           className={cn(
             "fixed inset-0 bg-white flex flex-col items-center justify-center md:hidden transition-transform duration-300 ease-in-out",
             isMenuOpen ? "translate-x-0" : "translate-x-full"
@@ -122,6 +127,13 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               Features
+            </Link>
+            <Link 
+              href="/#faq" 
+              className="text-xl text-black hover:text-primary transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              FAQ
             </Link>
             <Link 
               href="/waitlist" 
@@ -159,6 +171,8 @@ const Navbar = () => {
                     marginWidth={0}
                     title="Vendor Application Form"
                     className="w-full rounded-lg border"
+                    sandbox="allow-forms allow-scripts allow-same-origin"
+                    referrerPolicy="no-referrer"
                     style={{ minHeight: 500 }}
                   >
                     Loading…

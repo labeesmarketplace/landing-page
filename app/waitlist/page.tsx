@@ -12,6 +12,8 @@ const WaitlistFormPage = () => (
         marginWidth={0}
         title="Waitlist Form"
         className="w-full rounded-lg border"
+        sandbox="allow-forms allow-scripts allow-same-origin"
+        referrerPolicy="no-referrer"
       >
         Loading…
       </iframe>

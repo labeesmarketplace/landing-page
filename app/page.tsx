@@ -5,6 +5,7 @@ import FeatureMatrix from '@/components/sections/FeatureMatrix';
 import Showcase from '@/components/sections/Showcase';
 import PressStrip from '@/components/sections/PressStrip';
 import Newsletter from '@/components/sections/Newsletter';
+import FAQ from '@/components/sections/FAQ';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Vision />
       <HowItWorks />
       <FeatureMatrix />
+      <FAQ />
       <Showcase />
       <PressStrip />
       <Newsletter />
